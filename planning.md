@@ -38,6 +38,7 @@ The nav bar contains links to:
 - **Contact** (contact.html) — contact form and social links
 
 ## 5. Wireframe Sketch
+(for better understanding please try to view from "Code")
 
 [ HEADER: Logo | Nav: Home About Contact ]
 [ HERO: Big heading + subtitle + button ]
