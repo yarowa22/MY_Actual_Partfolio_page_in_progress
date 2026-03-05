@@ -16,8 +16,8 @@ The landing page (index.html) will include:
 
 ### Colors
 - Primary: `#27385b` (dark navy blue) — used for header, footer, and contact section
-- Secondary: gradient `linear-gradient(90deg, #DCF180, #F0CD97, #35518A)` — used for hero background
-- Accent: `#0061ff` (blue) — used for links, buttons, and highlights
+- secondary: gradient `linear-gradient(90deg, #DCF180, #F0CD97, #35518A)` — used for hero background
+- Accent: gradient `linear-gradient(0deg, #0061FF, #60EFFF)` — used for links, buttons, and highlights
 - Background: `#f8f9fa` (light gray) — used for page body
 
 ### Typography
@@ -36,6 +36,7 @@ The nav bar contains links to:
 - **Home** (index.html) — returns to landing page
 - **About** (about.html) — personal background 
 - **Contact** (contact.html) — contact form and social links
+- **Skills** - navigates to skills section on home page(not a link)
 
 ## 5. Wireframe Sketch
 (for better understanding please try to view from "Code")
@@ -55,3 +56,23 @@ The nav bar contains links to:
 - **GitHub Pages** — free static site hosting
 - **Brave browser DevTools** — debugging layout and CSS
 
+
+## 7. Discussion of HTML/CSS Evolution
+
+HTML has evolved from a simple document markup language (HTML 1.0, 1993) into a rich semantic standard. HTML5 (2014) introduced semantic elements like `<header>`, `<nav>`, `<section>`, `<article>`, and `<footer>`, replacing generic `<div>` tags and making pages more accessible and machine-readable. Source: [MDN Web Docs — HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+CSS has evolved from basic inline styling to a powerful layout and design system. CSS3 introduced features like custom properties (variables), flexbox, grid, gradients, transitions, and media queries — all of which are used in this project. Source: [MDN Web Docs — CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+## 8. HTML Tags I Used and Why
+
+ `<nav>`  Wraps the navigation links — tells browsers and screen readers this is site navigation 
+ `<section>`  Groups related content (hero, skills, contact) into meaningful blocks 
+ `<figure>` / `<img>` Displays the profile image with semantic meaning; 
+ `<footer>` Marks the bottom of the page with copyright info — semantic and good for SEO 
+
+## 9. CSS Properties I Implemented and Why
+
+ `font-family` with fallbacks  Ensures text renders consistently across different operating systems 
+ `border-radius`  Rounds corners on cards and buttons, making the design feel modern and friendly 
+ `position: sticky`  Keeps the header visible as the user scrolls — improves usability 
+ `transition`  Adds smooth hover animations on buttons and cards — improves user experience 
