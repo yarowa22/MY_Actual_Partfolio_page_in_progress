@@ -337,7 +337,7 @@ footer p {
     text-align: center;
     margin-top: var(--spacing-xs);
     font-size: 0.875rem;
-    color: var(--text-light);
+    color: var(--text-dark);
 }
 
 /* MEDIA QUERIES */
